@@ -19,20 +19,20 @@ NR.,Vulnerable Smart Contracts,Vulnerability/Bug,Analyzed (Solidity only),Reentr
 18,RockPaperScissors (RPS),Public moves,Yes,X,X,X,1,1,1,1,1
 19,AToken,"Re-entrancy, call to the unkown",Yes,X,X,X,1,1,1,1,1
 20,ForceSend,"Re-entrancy, call to the unkown",Yes,X,X,X,1,1,1,1,1
-21,KoET,"Unchecked-send bug, Gasless send, Mishandled exception",Yes,X,X,X,1,1,1,1,1
-22,GoodGhosting,Gasless send,Yes,X,X,X,1,1,1,1,1
+21,KoET,"Unchecked-send bug, Gasless send, Mishandled exception",Yes,X,X,X,1,X,X,1,1
+22,GoodGhosting,Gasless send,Yes,X,X,X,X,1,1,1,1
 23,ILendingPool,Gasless send,Yes,X,X,X,1,1,1,1,1
 24,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit, uses too much gas",Yes,X,X,X,1,X,1,1,1
 25,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,1,1,1,X,1
 26,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,1,1,1,1,1
 27,IPair,Type casts (intentional scam),Yes,X,X,X,X,1,1,1,X
-28,Parity Multisig,Unintended function exposure,Yes,X,X,X,1,1,1,1,1
+28,Parity Multisig,Unintended function exposure,Yes,X,X,X,X,1,1,1,1
 29,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,1,X,1,1,1
-30,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,1,1,1
+30,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,X,1,1,1
 31,DynamicPyramid,Contract that do not refund,Yes,X,X,X,1,1,1,1,1
 32,GreedPit,Contract that do not refund,Yes,X,X,X,1,1,X,1,1
-33,NanoPyramid,Contract that do not refund,Yes,X,X,X,1,1,1,1,1
-34,Tomeka,Contract that do not refund,Yes,X,X,X,1,1,1,1,1
+33,NanoPyramid,Contract that do not refund,Yes,X,X,X,1,X,1,1,1
+34,Tomeka,Contract that do not refund,Yes,X,X,X,1,1,1,X,1
 35,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,1,1,1,1,1
 36,RockPaperScissors (RPS),Public moves,Yes,X,X,X,1,1,1,1,1
 37,MAToken,Type casts (intentional scam),Yes,X,X,X,X,1,1,1,X
