@@ -4,7 +4,7 @@ NR.,Audited Smart Contracts,Analyzed (Solidity only),Unchecked-send bug,Re-entra
 3,Golem Network,Yes,2,X,X,X,2,X,X,6,X,X,1,X,^0.4.4
 4,ProjectKudos,Yes,X,X,X,X,2,X,X,3,X,2,7,X,^0.4.4
 5,SuperDAO Promissory,Yes,1,X,1,X,X,X,X,9,X,1,15,X,^0.4.8
-6,ROSCA ,No,,,,,,,,,,,,,
+6,ROSCA ,No,X,X,X,1,X,X,X,1,,,,,
 7,Matchpool GUP,Yes,X,X,X,X,3,X,X,2,X,8,X,X,^0.4.8
 8,iEx.ec RLC ,Yes,X,X,X,X,X,X,X,7,X,5,3,X,^0.4.8
 9,Cosmos,Yes,1,X,1,X,X,X,X,1,X,X,X,X,^0.4.8
@@ -19,4 +19,21 @@ NR.,Audited Smart Contracts,Analyzed (Solidity only),Unchecked-send bug,Re-entra
 18,Kin,Yes,X,X,6,X,7,X,X,56,X,8,43,X,^0.4.15
 19,Fuel,Yes,X,X,X,X,2,X,X,10,X,X,1,X,X
 20,Enigma,Yes,X,X,X,X,X,X,X,9,X,3,1,X,^0.4.11
-21,Global Messaging,No,,,,,,,,,,,,,
+21,Global Messaging,No,X,X,X,X,1,X,1,X,X,x,,,
+22,WingsDAO,Yes,X,X,X,X,1,X,X,8,X,7,25,X,X
+23,Moeda,Yes,X,X,2,1,X,X,X,12,X,4,1,X,^0.4.15
+24,Basic Attention,Yes,2,X,X,X,X,X,X,3,X,3,1,X,^0.4.10
+25,Storj,Yes,X,X,2,X,X,X,X,16,X,5,3,X,X
+26,Metal,Yes,X,X,X,X,X,X,X,7,X,5,1,X,^0.4.11
+27,Decentraland MANA,Yes,X,X,X,X,X,X,X,15,X,3,1,X,^0.4.11
+28,Tierion,Yes,X,X,X,X,X,X,X,7,X,3,1,X,^0.4.13
+29,Kin,Yes,X,X,6,X,7,X,X,56,X,8,43,X,^0.4.15
+30,Fuel,Yes,X,X,X,X,2,X,X,10,X,X,1,X,X
+31,Enigma,Yes,X,X,X,X,X,X,X,9,X,3,1,X,^0.4.11
+32,Global Messaging,No,X,X,X,X,1,X,1,X,X,x,,,
+33,Matchpool GUP,Yes,X,X,X,X,3,X,X,2,X,8,X,X,^0.4.8
+34,iEx.ec RLC ,Yes,X,X,X,X,X,X,X,7,X,5,3,X,^0.4.8
+35,Cosmos,Yes,1,X,1,X,X,X,X,1,X,X,X,X,^0.4.8
+36,Matchpool GUP,Yes,X,X,X,X,3,X,X,2,X,8,X,X,^0.4.8
+37,iEx.ec RLC ,Yes,X,X,X,X,X,X,X,7,X,5,3,X,^0.4.8
+38,Cosmos,Yes,1,X,1,X,X,X,X,1,X,X,X,X,^0.4.8
