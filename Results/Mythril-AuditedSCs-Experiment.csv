@@ -1,18 +1,18 @@
 NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,Integer Overflow/Underflow Vulnerability,Timestamp dependence,Re-entrancy,TOD,Mishandled Exception,Additional info
 1,Hacker Gold (HKG),Yes,Bytecode,,11.30%,FALSE,FALSE,FALSE,FALSE,TRUE,
 ,,Yes,Solidity,,11.30%,FALSE,TRUE,FALSE,FALSE,FALSE,/
-2,ArcadeCity (ARC),Yes,Bytecode (CLI),,32.10%,FALSE,FALSE,FALSE,FALSE,,
-,,Yes,Solidity (CLI),,84.30%,FALSE,FALSE,FALSE,FALSE,,
+2,ArcadeCity (ARC),Yes,Bytecode (CLI),,32.10%,FALSE,FALSE,FALSE,FALSE,TRUE,
+,,Yes,Solidity (CLI),,84.30%,FALSE,FALSE,FALSE,FALSE,FALSE,
 3,Golem Network,No,Bytecode,No Bytecode Available,,,,,,,
-,,No,Solidity (Web and CLI),import' compiler errors. ,,TRUE,,,,,
-4,ProjectKudos,Yes,Bytecode (CLI),,28.30%,FALSE,FALSE,FALSE,FALSE,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,TRUE,,,,FALSE,
+4,ProjectKudos,Yes,Bytecode (CLI),,28.30%,FALSE,FALSE,FALSE,FALSE,FALSE,
 ,,Yes,Solidity,,28.70%,FALSE,FALSE,FALSE,FALSE,TRUE,/
-5,SuperDAO Promissory,Yes,Bytecode (CLI),,10.10%,TRUE,FALSE,FALSE,FALSE,,
+5,SuperDAO Promissory,Yes,Bytecode (CLI),,10.10%,TRUE,FALSE,FALSE,FALSE,TRUE,
 ,,Yes,Solidity,,10.70%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
 6,ROSCA ,No,Bytecode,No Bytecode Available,,,,,,,
 ,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
-7,Matchpool GUP,Yes,Bytecode (CLI),,5.40%,FALSE,FALSE,FALSE,FALSE,,
-,,Yes,Solidity (CLI),,56.10%,FALSE,FALSE,FALSE,FALSE,,
+7,Matchpool GUP,Yes,Bytecode (CLI),,5.40%,FALSE,FALSE,FALSE,FALSE,TRUE,
+,,Yes,Solidity (CLI),,56.10%,FALSE,FALSE,FALSE,FALSE,FALSE,
 8,iEx.ec RLC ,Yes,Bytecode,,6.80%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
 ,,Yes,Solidity,,6.00%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
 9,Cosmos,Yes,Bytecode,,21.70%,FALSE,FALSE,FALSE,FALSE,,
@@ -35,10 +35,10 @@ NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,
 ,,Yes,Solidity,,99.90%,FALSE,FALSE,FALSE,FALSE,TRUE,/
 18,Kin,Yes,Bytecode,,99.80%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity (CLI),,99.80%,FALSE,FALSE,FALSE,FALSE,,
-19,Fuel,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,,
+19,Fuel,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,TRUE,
 ,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
-20,Enigma,Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,,
-,,Yes,Solidity (CLI),,99.70%,FALSE,FALSE,FALSE,FALSE,,
+20,Enigma,Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,TRUE,
+,,Yes,Solidity (CLI),,99.70%,FALSE,FALSE,FALSE,FALSE,TRUE,
 21,Global Messaging,No,Bytecode,No Bytecode Available,,,,,,,
 ,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
 22,GoodGhosting,Yes,Bytecode,,11.10%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
@@ -51,14 +51,14 @@ NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,
 ,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
 26,SimpleMintable,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
-27,Migrations,Yes,Bytecode,,100.00%,FALSE,FALSE,FALSE,FALSE,,
+27,Migrations,Yes,Bytecode,,100.00%,FALSE,FALSE,FALSE,FALSE,TRUE,
 ,,Yes,Solidity (CLI),,100.00%,FALSE,FALSE,FALSE,FALSE,,
-28,con1,Yes,Bytecode,,11.30%,FALSE,FALSE,FALSE,FALSE,/,
+28,con1,Yes,Bytecode,,11.30%,FALSE,FALSE,FALSE,FALSE,TRUE,
 ,,Yes,Solidity,,11.30%,FALSE,TRUE,FALSE,FALSE,FALSE,/
 29,con2,Yes,Bytecode (CLI),,32.10%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity (CLI),,84.30%,FALSE,FALSE,FALSE,FALSE,,
 30,con3,No,Bytecode,No Bytecode Available,,,,,,,
-,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,TRUE,
 31,con4,Yes,Bytecode (CLI),,28.30%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity,,28.70%,FALSE,FALSE,FALSE,FALSE,TRUE,/
 32,con5 Promissory,Yes,Bytecode (CLI),,10.10%,FALSE,FALSE,FALSE,FALSE,,
