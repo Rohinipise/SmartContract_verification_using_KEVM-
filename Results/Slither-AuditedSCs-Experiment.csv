@@ -2,12 +2,12 @@ NR.,Vulnerable Smart Contracts,Vulnerability/Bug,Analyzed (Solidity only),Reentr
 1,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,1,1,1,1,1
 2,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,1,1,1,1,1
 3,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,X,X,X,1,1,1,1,X
-4,KotET Sample compiler version 0.3.1,Mishandled Exception,Yes,X,X,X,1,1,1,X,1
+4,KotET Sample compiler version 0.3.1,Mishandled Exception,Yes,1,X,X,1,1,1,X,1
 5,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,1,1,X,1,1
 6,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit, uses too much gas",Yes,X,X,X,1,X,1,1,1
 7,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,1,1,1,X,1
 8,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,1,1,1,1,1
-9,FirePonzi,Type casts (intentional scam),Yes,X,X,X,X,1,1,1,X
+9,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,1,1,1,X
 10,Parity Multisig,Unintended function exposure,Yes,X,X,X,1,1,X,1,1
 11,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,1,X,1,1,1
 12,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,1,1
@@ -16,12 +16,12 @@ NR.,Vulnerable Smart Contracts,Vulnerability/Bug,Analyzed (Solidity only),Reentr
 15,NanoPyramid,Contract that do not refund,Yes,X,X,X,1,1,1,1,1
 16,Tomeka,Contract that do not refund,Yes,X,X,X,1,1,1,1,1
 17,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,1,1,1,1,1
-18,RockPaperScissors (RPS),Public moves,Yes,X,X,X,1,1,1,1,X
+18,RockPaperScissors (RPS),Public moves,Yes,1,X,X,1,1,1,1,X
 19,AToken,"Re-entrancy, call to the unkown",Yes,X,X,X,1,1,1,1,1
 20,ForceSend,"Re-entrancy, call to the unkown",Yes,X,X,X,1,1,1,1,1
 21,KoET,"Unchecked-send bug, Gasless send, Mishandled exception",Yes,X,X,X,1,X,X,1,1
-22,GoodGhosting,Gasless send,Yes,X,X,X,X,1,1,1,1
-23,ILendingPool,Gasless send,Yes,X,X,X,1,1,1,1,1
+22,GoodGhosting,Gasless send,Yes,1,X,X,X,1,1,1,1
+23,ILendingPool,Gasless send,Yes,1,X,X,1,1,1,1,1
 24,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit, uses too much gas",Yes,X,X,X,1,X,1,1,1
 25,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,1,1,1,X,1
 26,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,1,1,1,1,X
