@@ -4,10 +4,10 @@ NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,
 2,ArcadeCity (ARC),Yes,Bytecode (CLI),,32.10%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity (CLI),,84.30%,FALSE,FALSE,FALSE,FALSE,,
 3,Golem Network,No,Bytecode,No Bytecode Available,,,,,,,
-,,No,Solidity (Web and CLI),import' compiler errors. ,,True,,,,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,TRUE,,,,,
 4,ProjectKudos,Yes,Bytecode (CLI),,28.30%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity,,28.70%,FALSE,FALSE,FALSE,FALSE,TRUE,/
-5,SuperDAO Promissory,Yes,Bytecode (CLI),,10.10%,FALSE,FALSE,FALSE,FALSE,,
+5,SuperDAO Promissory,Yes,Bytecode (CLI),,10.10%,TRUE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity,,10.70%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
 6,ROSCA ,No,Bytecode,No Bytecode Available,,,,,,,
 ,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
