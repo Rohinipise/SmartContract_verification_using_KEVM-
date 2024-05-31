@@ -41,5 +41,37 @@ NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,
 ,,Yes,Solidity (CLI),,99.70%,FALSE,FALSE,FALSE,FALSE,,
 21,Global Messaging,No,Bytecode,No Bytecode Available,,,,,,,
 ,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
-22,Global Messaging,No,Bytecode,No Bytecode Available,,,,,,,
+22,GoodGhosting,Yes,Bytecode,,11.10%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
+,,Yes,Solidity (CLI),,87.80%,FALSE,FALSE,FALSE,FALSE,,
+23,Ipair,Yes,Bytecode,,11.10%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
+,,Yes,Solidity (CLI),,87.80%,FALSE,FALSE,FALSE,FALSE,,
+24,ILendingPool,Yes,Bytecode,,99.90%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,99.90%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+25,TestBundle,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+26,SimpleMintable,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+27,Migrations,Yes,Bytecode,,100.00%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,100.00%,FALSE,FALSE,FALSE,FALSE,,
+28,con1,Yes,Bytecode,,11.30%,FALSE,FALSE,FALSE,FALSE,/,
+,,Yes,Solidity,,11.30%,FALSE,TRUE,FALSE,FALSE,FALSE,/
+29,con2,Yes,Bytecode (CLI),,32.10%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,84.30%,FALSE,FALSE,FALSE,FALSE,,
+30,con3,No,Bytecode,No Bytecode Available,,,,,,,
 ,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
+31,con4,Yes,Bytecode (CLI),,28.30%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,28.70%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+32,con5 Promissory,Yes,Bytecode (CLI),,10.10%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,10.70%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
+33,con6 ,No,Bytecode,No Bytecode Available,,,,,,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
+34,con7,Yes,Bytecode (CLI),,5.40%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,56.10%,FALSE,FALSE,FALSE,FALSE,,
+35,con8 ,Yes,Bytecode,,6.80%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
+,,Yes,Solidity,,6.00%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
+36,con9,Yes,Bytecode,,21.70%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,21.60%,FALSE,FALSE,FALSE,FALSE,FALSE,/
+37,con10,Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,/,
+,,Yes,Solidity,,99.70%,FALSE,FALSE,FALSE,FALSE,FALSE,/
+38,con11,Yes,Bytecode,,14.40%,FALSE,FALSE,FALSE,FALSE,/,
+,,Yes,Solidity (CLI),,30.00%,FALSE,FALSE,FALSE,FALSE,,
