@@ -35,10 +35,10 @@ NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,
 ,,Yes,Solidity,,99.90%,FALSE,FALSE,FALSE,FALSE,TRUE,/
 18,Kin,Yes,Bytecode,,99.80%,FALSE,FALSE,FALSE,FALSE,,
 ,,Yes,Solidity (CLI),,99.80%,FALSE,FALSE,FALSE,FALSE,,
-19,Fuel,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,TRUE,
+19,Fuel,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,FALSE,
 ,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
-20,Enigma,Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,TRUE,
-,,Yes,Solidity (CLI),,99.70%,FALSE,FALSE,FALSE,FALSE,TRUE,
+20,Enigma,Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,FALSE,
+,,Yes,Solidity (CLI),,99.70%,FALSE,FALSE,FALSE,FALSE,FALSE,
 21,Global Messaging,No,Bytecode,No Bytecode Available,,,,,,,
 ,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
 22,GoodGhosting,Yes,Bytecode,,11.10%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
