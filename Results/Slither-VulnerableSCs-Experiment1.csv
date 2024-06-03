@@ -1,0 +1,137 @@
+NR.1,Vulnerable Smart Contract ,Vulnerability/Bug,Analyzed,Reentrancy,Timestamp Dependancy,Transaction ordering dependancy,Mishandled exceptions,Integer overflow/underflow,Gas overusage,Phishing with tx.origin,Signature replay,Assertion Failure,Additional info,Compiler version
+,,,,,,,,,,,,/,/,
+1,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,FALSE,/,0.3.1
+2,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,/,/,
+3,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",No ,X,X,X,X,X,X,X,X,FALSE,/,0.4.2
+4,KotET Sample compiler version 0.3.1,Gasless send,No ,1,X,X,1,X,X,X,X,,/,/
+5,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,X,1,X,X,X,FALSE,/,0.2.1-fad2d4df
+6,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",No ,X,X,X,X,X,X,X,X,/,/,
+7,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.3.1
+8,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,X,X,X,X,X,/,,
+9,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,X,X,X,X,FALSE,/,0.4.2
+10,Parity Multisig,Unintended function exposure,No ,X,X,X,X,1,X,X,X,/,,
+11,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+12,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,X,X,/,,
+13,DynamicPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,/,0.3.1
+14,GreedPit,Contract that do not refund,No ,X,X,X,X,1,X,X,X,/,,
+15,NanoPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+16,Tomeka,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,/,
+17,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,X,X,X,X,X,FALSE,,0.3.1-2016-04-07-054bc2a
+18,RockPaperScissors (RPS),Public moves,No ,1,X,X,1,X,X,X,X,/,,
+19,SmartBillions,Blockhash bug,Yes,X,X,X,X,X,X,X,X,,,0.4.6
+20,EtherPot,Unchecked-send bug,No ,X,X,X,X,X,X,X,X,/,,
+21,TheRun,Timestamp dependence,Yes,X,X,X,1,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+22,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,1,X,X,X,X,X,X,X,,,
+23,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,1,X,X,1,X,1,1,1,FALSE,,0.3.1-2016-04-12-3ad5e82
+24,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,/,,
+25,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+26,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",No ,X,X,X,X,X,X,X,X,,,
+27,KotET Sample compiler version 0.3.1,Gasless send,No ,1,X,X,1,X,X,X,X,,,0.3.0-2016-03-11-1f9578c
+28,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,X,1,X,X,X,/,,
+29,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",No ,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+30,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,X,X,X,X,X,/,,
+31,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+32,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,X,X,X,X,/,,
+33,Parity Multisig,Unintended function exposure,No ,X,X,X,X,1,X,X,X,FALSE,,0.3.1-2016-04-12-3ad5e82
+34,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,X,X,X,X,X,/,,
+35,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,X,X,FALSE,,0.3.1-2016-04-12-3ad5e82
+36,DynamicPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,Failed the first time.,
+37,GreedPit,Contract that do not refund,No ,X,X,X,X,1,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+38,NanoPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,,
+39,Tomeka,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.4.3
+40,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,X,X,X,X,X,,Failed the first time.,
+41,RockPaperScissors (RPS),Public moves,No ,1,X,X,1,X,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+42,SmartBillions,Blockhash bug,Yes,X,X,X,X,X,X,X,X,/,,
+43,EtherPot,Unchecked-send bug,No ,X,X,X,X,X,X,X,X,FALSE,/,0.3.1
+44,TheRun,Timestamp dependence,Yes,X,X,X,1,X,X,X,X,/,,
+45,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,1,X,X,X,X,X,X,X,FALSE,/,0.4.2
+46,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,1,X,X,1,X,1,1,1,/,/,
+47,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,FALSE,/,0.3.1
+48,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,/,/,
+49,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",No ,X,X,X,X,X,X,X,X,FALSE,/,0.4.2
+50,KotET Sample compiler version 0.3.1,Gasless send,No ,1,X,X,1,X,X,X,X,,/,/
+51,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,X,1,X,X,X,FALSE,/,0.2.1-fad2d4df
+52,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",No ,X,X,X,X,X,X,X,X,/,/,
+53,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.3.1
+54,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,X,X,X,X,X,/,,
+55,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,X,X,X,X,FALSE,/,0.4.2
+56,Parity Multisig,Unintended function exposure,No ,X,X,X,X,1,X,X,X,/,,
+57,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+58,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,X,X,/,,
+59,DynamicPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,/,0.3.1
+60,GreedPit,Contract that do not refund,No ,X,X,X,X,1,X,X,X,/,,
+61,NanoPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+62,Tomeka,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,/,
+63,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,X,X,X,X,X,FALSE,,0.3.1-2016-04-07-054bc2a
+64,RockPaperScissors (RPS),Public moves,No ,1,X,X,1,X,X,X,X,/,,
+65,SmartBillions,Blockhash bug,Yes,X,X,X,X,X,X,X,X,,,0.4.6
+66,EtherPot,Unchecked-send bug,No ,X,X,X,X,X,X,X,X,/,,
+67,TheRun,Timestamp dependence,Yes,X,X,X,1,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+68,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,1,X,X,X,X,X,X,X,,,
+69,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,1,X,X,1,X,1,1,1,FALSE,,0.3.1-2016-04-12-3ad5e82
+70,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,/,,
+71,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+72,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",No ,X,X,X,X,X,X,X,X,,,
+73,KotET Sample compiler version 0.3.1,Gasless send,No ,1,X,X,1,X,X,X,X,,,0.3.0-2016-03-11-1f9578c
+74,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,X,1,X,X,X,/,,
+75,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",No ,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+76,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,X,X,X,X,X,/,,
+77,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+78,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,X,X,X,X,/,,
+79,Parity Multisig,Unintended function exposure,No ,X,X,X,X,1,X,X,X,FALSE,,0.3.1-2016-04-12-3ad5e82
+80,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,X,X,X,X,X,/,,
+81,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,X,X,FALSE,,0.3.1-2016-04-12-3ad5e82
+82,DynamicPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,Failed the first time.,
+83,GreedPit,Contract that do not refund,No ,X,X,X,X,1,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+84,NanoPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,,
+85,Tomeka,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.4.3
+86,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,X,X,X,X,X,,Failed the first time.,
+87,RockPaperScissors (RPS),Public moves,No ,1,X,X,1,X,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+88,SmartBillions,Blockhash bug,Yes,X,X,X,X,X,X,X,X,/,,
+89,EtherPot,Unchecked-send bug,No ,X,X,X,X,X,X,X,X,FALSE,/,0.3.1
+90,TheRun,Timestamp dependence,Yes,X,X,X,1,X,X,X,X,/,,
+91,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,1,X,X,X,X,X,X,X,FALSE,/,0.4.2
+92,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,1,X,X,1,X,1,1,1,/,/,
+93,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,FALSE,/,0.3.1
+94,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,/,/,
+95,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",No ,X,X,X,X,X,X,X,X,FALSE,/,0.4.2
+96,KotET Sample compiler version 0.3.1,Gasless send,No ,1,X,X,1,X,X,X,X,,/,/
+97,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,X,1,X,X,X,FALSE,/,0.2.1-fad2d4df
+98,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",No ,X,X,X,X,X,X,X,X,/,/,
+99,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.3.1
+100,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,X,X,X,X,X,/,,
+101,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,X,X,X,X,FALSE,/,0.4.2
+102,Parity Multisig,Unintended function exposure,No ,X,X,X,X,1,X,X,X,/,,
+103,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+104,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,X,X,/,,
+105,DynamicPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,/,0.3.1
+106,GreedPit,Contract that do not refund,No ,X,X,X,X,1,X,X,X,/,,
+107,NanoPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+108,Tomeka,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,/,
+109,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,X,X,X,X,X,FALSE,,0.3.1-2016-04-07-054bc2a
+110,RockPaperScissors (RPS),Public moves,No ,1,X,X,1,X,X,X,X,/,,
+111,SmartBillions,Blockhash bug,Yes,X,X,X,X,X,X,X,X,,,0.4.6
+112,EtherPot,Unchecked-send bug,No ,X,X,X,X,X,X,X,X,/,,
+113,TheRun,Timestamp dependence,Yes,X,X,X,1,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+114,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,1,X,X,X,X,X,X,X,,,
+115,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,1,X,X,1,X,1,1,1,FALSE,,0.3.1-2016-04-12-3ad5e82
+116,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,/,,
+117,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,1,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+118,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",No ,X,X,X,X,X,X,X,X,,,
+119,KotET Sample compiler version 0.3.1,Gasless send,No ,1,X,X,1,X,X,X,X,,,0.3.0-2016-03-11-1f9578c
+120,KotET Sample compiler version 0.4.2,Gasless send,Yes,X,X,X,X,1,X,X,X,/,,
+121,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",No ,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+122,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,X,X,X,X,X,X,X,X,/,,
+123,Rubixi ,"Immutable bugs, wrong constructor name",Yes,X,X,X,X,X,X,X,X,FALSE,,0.2.1-2016-01-30-91a6b35
+124,FirePonzi,Type casts (intentional scam),Yes,1,X,X,X,X,X,X,X,/,,
+125,Parity Multisig,Unintended function exposure,No ,X,X,X,X,1,X,X,X,FALSE,,0.3.1-2016-04-12-3ad5e82
+126,GoodFellas,Typo (wrong constructor name),Yes,X,X,X,X,X,X,X,X,/,,
+127,StackyGame,Typo (wrong constructor name),Yes,X,X,X,1,1,X,X,X,FALSE,,0.3.1-2016-04-12-3ad5e82
+128,DynamicPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,Failed the first time.,
+129,GreedPit,Contract that do not refund,No ,X,X,X,X,1,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+130,NanoPyramid,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,/,,
+131,Tomeka,Contract that do not refund,Yes,X,X,X,X,X,X,X,X,FALSE,Failed the first time.,0.4.3
+132,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,X,X,X,X,X,X,X,X,,Failed the first time.,
+133,RockPaperScissors (RPS),Public moves,No ,1,X,X,1,X,X,X,X,FALSE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+134,SmartBillions,Blockhash bug,Yes,X,X,X,X,X,X,X,X,/,,
+135,EtherPot,Unchecked-send bug,No ,X,X,X,X,X,X,X,X,FALSE,/,0.3.1
