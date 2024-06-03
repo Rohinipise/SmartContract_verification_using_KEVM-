@@ -1,0 +1,271 @@
+NR.,Vulnerable Smart Contract ,Vulnerability/Bug,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,Integer Overflow/Underflow Vulnerability,Timestamp dependence,Re-entrancy,TOD,Mishandled Exception,Additional info,
+1,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.3.1
+2,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,TRUE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,TRUE,/,0.4.2
+3,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,Bytecode,,19.10%,TRUE,FALSE,FALSE,FALSE,TRUE,/,/
+,,,Yes,Solidity,,21.40%,TRUE,FALSE,FALSE,FALSE,TRUE,/,0.2.1-fad2d4df
+4,KotET Sample compiler version 0.3.1,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1
+5,KotET Sample compiler version 0.4.2,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,/,0.4.2
+6,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes,Bytecode,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+7,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,Bytecode,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.3.1
+8,Rubixi ,"Immutable bugs, wrong constructor name",Yes,Bytecode,Modified,19.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+9,FirePonzi,Type casts (intentional scam),Yes,Bytecode,Modified,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-07-054bc2a
+10,Parity Multisig,Unintended function exposure,Yes,Bytecode,,17.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,No,Solidity (Web and CLI),Solidity compilation failed,,,,,,,,0.4.6
+11,GoodFellas,Typo (wrong constructor name),Yes,Bytecode,Modified,48.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,48.50%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+12,StackyGame,Typo (wrong constructor name),Yes,Bytecode (CLI),Modified ,43.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,39.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+13,DynamicPyramid,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.2.1-2016-01-30-91a6b35
+14,GreedPit,Contract that do not refund,Yes,Bytecode (CLI),Modified ,64.00%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity (CLI),,64%,TRUE,TRUE,FALSE,FALSE,TRUE,,0.3.0-2016-03-11-1f9578c
+15,NanoPyramid,Contract that do not refund,Yes,Bytecode,Modified,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+16,Tomeka,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+17,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,Bytecode,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+18,RockPaperScissors (RPS),Public moves,Yes,Bytecode,Modified,78.40%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,75.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+19,SmartBillions,Blockhash bug,Yes,Bytecode,,7.70%,FALSE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,
+,,,Yes,Solidity,,14.60%,FALSE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+20,EtherPot,Unchecked-send bug,Yes,Bytecode,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.4.3
+21,TheRun,Timestamp dependence,Yes,Bytecode,Modified ,52.30%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,52.30%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+22,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,Bytecode,,37.10%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,36.30%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.3.1
+23,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,Bytecode,,99.10%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.00%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.4.2
+24,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.3.1
+25,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.4.2
+26,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,Bytecode,,19.10%,TRUE,FALSE,FALSE,FALSE,TRUE,/,/
+,,,Yes,Solidity,,21.40%,TRUE,FALSE,FALSE,FALSE,TRUE,/,0.2.1-fad2d4df
+27,KotET Sample compiler version 0.3.1,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1
+28,KotET Sample compiler version 0.4.2,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,/,0.4.2
+29,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes,Bytecode,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+30,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,Bytecode,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.3.1
+31,Rubixi ,"Immutable bugs, wrong constructor name",Yes,Bytecode,Modified,19.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+32,FirePonzi,Type casts (intentional scam),Yes,Bytecode,Modified,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-07-054bc2a
+33,Parity Multisig,Unintended function exposure,Yes,Bytecode,,17.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,No,Solidity (Web and CLI),Solidity compilation failed,,,,,FALSE,,,0.4.6
+34,GoodFellas,Typo (wrong constructor name),Yes,Bytecode,Modified,48.60%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,48.50%,TRUE,TRUE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+35,StackyGame,Typo (wrong constructor name),Yes,Bytecode (CLI),Modified ,43.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,39.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+36,DynamicPyramid,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,19.60%,TRUE,TRUE,FALSE,FALSE,TRUE,,0.2.1-2016-01-30-91a6b35
+37,GreedPit,Contract that do not refund,Yes,Bytecode (CLI),Modified ,64.00%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity (CLI),,64%,TRUE,TRUE,FALSE,FALSE,TRUE,,0.3.0-2016-03-11-1f9578c
+38,NanoPyramid,Contract that do not refund,Yes,Bytecode,Modified,41.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+39,Tomeka,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+40,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,Bytecode,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,42.20%,TRUE,TRUE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+41,RockPaperScissors (RPS),Public moves,Yes,Bytecode,Modified,78.40%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,75.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+42,SmartBillions,Blockhash bug,Yes,Bytecode,,7.70%,FALSE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,14.60%,FALSE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+43,EtherPot,Unchecked-send bug,Yes,Bytecode,,30.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,30.60%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.4.3
+44,TheRun,Timestamp dependence,Yes,Bytecode,Modified ,52.30%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,
+,,,Yes,Solidity,,52.30%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+45,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,Bytecode,,37.10%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,36.30%,FALSE,FALSE,FALSE,FALSE,FALSE,/,0.3.1
+46,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,Bytecode,,99.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.00%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+47,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.3.1
+48,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,TRUE,TRUE,FALSE,FALSE,/,0.4.2
+49,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,Bytecode,,19.10%,TRUE,TRUE,FALSE,FALSE,TRUE,/,/
+,,,Yes,Solidity,,21.40%,TRUE,TRUE,FALSE,FALSE,TRUE,/,0.2.1-fad2d4df
+50,KotET Sample compiler version 0.3.1,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1
+51,KotET Sample compiler version 0.4.2,Gasless send,Yes,Bytecode,,99.70%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,99.70%,TRUE,TRUE,FALSE,FALSE,TRUE,/,0.4.2
+52,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes,Bytecode,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+53,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,Bytecode,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.3.1
+54,Rubixi ,"Immutable bugs, wrong constructor name",Yes,Bytecode,Modified,19.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+55,FirePonzi,Type casts (intentional scam),Yes,Bytecode,Modified,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-07-054bc2a
+56,Parity Multisig,Unintended function exposure,Yes,Bytecode,,17.30%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,No,Solidity (Web and CLI),Solidity compilation failed,,,,,FALSE,,,0.4.6
+57,GoodFellas,Typo (wrong constructor name),Yes,Bytecode,Modified,48.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,48.50%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+58,StackyGame,Typo (wrong constructor name),Yes,Bytecode (CLI),Modified ,43.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,39.70%,TRUE,TRUE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+59,DynamicPyramid,Contract that do not refund,Yes,Bytecode,Modified,19.60%,FALSE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.2.1-2016-01-30-91a6b35
+60,GreedPit,Contract that do not refund,Yes,Bytecode (CLI),Modified ,64.00%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity (CLI),,64%,TRUE,TRUE,FALSE,FALSE,FALSE,,0.3.0-2016-03-11-1f9578c
+61,NanoPyramid,Contract that do not refund,Yes,Bytecode,Modified,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+62,Tomeka,Contract that do not refund,Yes,Bytecode,Modified,19.60%,FALSE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+63,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,Bytecode,,42.20%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,42.20%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+64,RockPaperScissors (RPS),Public moves,Yes,Bytecode,Modified,78.40%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,75.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+65,SmartBillions,Blockhash bug,Yes,Bytecode,,7.70%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,14.60%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+66,EtherPot,Unchecked-send bug,Yes,Bytecode,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.4.3
+67,TheRun,Timestamp dependence,Yes,Bytecode,Modified ,52.30%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,52.30%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+68,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,Bytecode,,37.10%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,36.30%,FALSE,FALSE,FALSE,FALSE,TRUE,/,0.3.1
+69,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,Bytecode,,99.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.00%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+70,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.3.1
+71,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.4.2
+72,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,Bytecode,,19.10%,FALSE,FALSE,FALSE,FALSE,FALSE,/,/
+,,,Yes,Solidity,,21.40%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.2.1-fad2d4df
+73,KotET Sample compiler version 0.3.1,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1
+74,KotET Sample compiler version 0.4.2,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+75,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes,Bytecode,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+76,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,Bytecode,,99.40%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,99.40%,TRUE,TRUE,FALSE,FALSE,TRUE,/,0.3.1
+77,Rubixi ,"Immutable bugs, wrong constructor name",Yes,Bytecode,Modified,19.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+78,FirePonzi,Type casts (intentional scam),Yes,Bytecode,Modified,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-07-054bc2a
+79,Parity Multisig,Unintended function exposure,Yes,Bytecode,,17.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,No,Solidity (Web and CLI),Solidity compilation failed,,,,,FALSE,FALSE,,0.4.6
+80,GoodFellas,Typo (wrong constructor name),Yes,Bytecode,Modified,48.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,48.50%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+81,StackyGame,Typo (wrong constructor name),Yes,Bytecode (CLI),Modified ,43.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,39.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+82,DynamicPyramid,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.2.1-2016-01-30-91a6b35
+83,GreedPit,Contract that do not refund,Yes,Bytecode (CLI),Modified ,64.00%,FALSE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity (CLI),,64%,TRUE,TRUE,FALSE,FALSE,TRUE,,0.3.0-2016-03-11-1f9578c
+84,NanoPyramid,Contract that do not refund,Yes,Bytecode,Modified,41.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,41.70%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+85,Tomeka,Contract that do not refund,Yes,Bytecode,Modified,19.60%,FALSE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+86,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,Bytecode,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+87,RockPaperScissors (RPS),Public moves,Yes,Bytecode,Modified,78.40%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,75.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+88,SmartBillions,Blockhash bug,Yes,Bytecode,,7.70%,FALSE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,14.60%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+89,EtherPot,Unchecked-send bug,Yes,Bytecode,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.4.3
+90,TheRun,Timestamp dependence,Yes,Bytecode,Modified ,52.30%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,52.30%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+91,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,Bytecode,,37.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,36.30%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.3.1
+92,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,Bytecode,,99.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.00%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+93,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,FALSE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.3.1
+94,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.4.2
+95,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,Bytecode,,19.10%,TRUE,FALSE,FALSE,FALSE,TRUE,/,/
+,,,Yes,Solidity,,21.40%,FALSE,FALSE,FALSE,FALSE,TRUE,/,0.2.1-fad2d4df
+96,KotET Sample compiler version 0.3.1,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1
+97,KotET Sample compiler version 0.4.2,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+98,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes,Bytecode,,21.20%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,21.20%,TRUE,TRUE,FALSE,FALSE,TRUE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+99,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,Bytecode,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.40%,TRUE,TRUE,FALSE,FALSE,FALSE,/,0.3.1
+100,Rubixi ,"Immutable bugs, wrong constructor name",Yes,Bytecode,Modified,19.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+101,FirePonzi,Type casts (intentional scam),Yes,Bytecode,Modified,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-07-054bc2a
+102,Parity Multisig,Unintended function exposure,Yes,Bytecode,,17.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,No,Solidity (Web and CLI),Solidity compilation failed,,,,,,FALSE,,0.4.6
+103,GoodFellas,Typo (wrong constructor name),Yes,Bytecode,Modified,48.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,48.50%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.2.1-2016-01-30-91a6b35
+104,StackyGame,Typo (wrong constructor name),Yes,Bytecode (CLI),Modified ,43.60%,FALSE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,39.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+105,DynamicPyramid,Contract that do not refund,Yes,Bytecode,Modified,19.60%,FALSE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+106,GreedPit,Contract that do not refund,Yes,Bytecode (CLI),Modified ,64.00%,TRUE,TRUE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity (CLI),,64%,TRUE,TRUE,FALSE,FALSE,TRUE,,0.3.0-2016-03-11-1f9578c
+107,NanoPyramid,Contract that do not refund,Yes,Bytecode,Modified,41.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,41.70%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+108,Tomeka,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+109,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,Bytecode,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+110,RockPaperScissors (RPS),Public moves,Yes,Bytecode,Modified,78.40%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,75.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+111,SmartBillions,Blockhash bug,Yes,Bytecode,,7.70%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,
+,,,Yes,Solidity,,14.60%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+112,EtherPot,Unchecked-send bug,Yes,Bytecode,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.4.3
+113,TheRun,Timestamp dependence,Yes,Bytecode,Modified ,52.30%,FALSE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,
+,,,Yes,Solidity,,52.30%,TRUE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,0.3.1-2016-04-07-054bc2a
+114,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes,Bytecode,,37.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,36.30%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.3.1
+115,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes,Bytecode,,99.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.00%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+116,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,TRUE,/,
+,,,Yes,Solidity,,99.70%,FALSE,FALSE,TRUE,FALSE,TRUE,/,0.3.1
+117,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes,Bytecode,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,TRUE,FALSE,FALSE,/,0.4.2
+118,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes,Bytecode,,19.10%,FALSE,FALSE,FALSE,FALSE,FALSE,/,/
+,,,Yes,Solidity,,21.40%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.2.1-fad2d4df
+119,KotET Sample compiler version 0.3.1,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1
+120,KotET Sample compiler version 0.4.2,Gasless send,Yes,Bytecode,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.70%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.4.2
+121,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes,Bytecode,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,21.20%,TRUE,TRUE,FALSE,FALSE,FALSE,Failed the first time.,0.2.1-2016-01-30-91a6b35
+122,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes,Bytecode,,99.40%,FALSE,TRUE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,99.40%,TRUE,FALSE,FALSE,FALSE,FALSE,/,0.3.1
+123,Rubixi ,"Immutable bugs, wrong constructor name",Yes,Bytecode,Modified,19.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+124,FirePonzi,Type casts (intentional scam),Yes,Bytecode,Modified,54.10%,FALSE,FALSE,FALSE,FALSE,FALSE,/,
+,,,Yes,Solidity,,54.10%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-07-054bc2a
+125,Parity Multisig,Unintended function exposure,Yes,Bytecode,,17.30%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,No,Solidity (Web and CLI),Solidity compilation failed,,,,,,,,0.4.6
+126,GoodFellas,Typo (wrong constructor name),Yes,Bytecode,Modified,48.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,48.50%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+127,StackyGame,Typo (wrong constructor name),Yes,Bytecode (CLI),Modified ,43.60%,FALSE,FALSE,FALSE,FALSE,TRUE,,
+,,,Yes,Solidity,,39.70%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+128,DynamicPyramid,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+129,GreedPit,Contract that do not refund,Yes,Bytecode (CLI),Modified ,64.00%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity (CLI),,64%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.0-2016-03-11-1f9578c
+130,NanoPyramid,Contract that do not refund,Yes,Bytecode,Modified,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,41.70%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+131,Tomeka,Contract that do not refund,Yes,Bytecode,Modified,19.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,19.60%,FALSE,FALSE,FALSE,FALSE,FALSE,,0.2.1-2016-01-30-91a6b35
+132,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes,Bytecode,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,42.20%,TRUE,FALSE,FALSE,FALSE,FALSE,,0.3.1-2016-04-12-3ad5e82
+133,RockPaperScissors (RPS),Public moves,Yes,Bytecode,Modified,78.40%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,75.60%,TRUE,FALSE,FALSE,FALSE,TRUE,,0.3.1-2016-04-12-3ad5e82
+134,SmartBillions,Blockhash bug,Yes,Bytecode,,7.70%,FALSE,FALSE,FALSE,FALSE,TRUE,Failed the first time.,
+,,,Yes,Solidity,,14.60%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.3.1-2016-04-12-3ad5e82
+135,EtherPot,Unchecked-send bug,Yes,Bytecode,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,,
+,,,Yes,Solidity,,30.60%,TRUE,FALSE,FALSE,FALSE,FALSE,Failed the first time.,0.4.3
